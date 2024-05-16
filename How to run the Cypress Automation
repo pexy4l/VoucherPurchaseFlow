@@ -1,0 +1,15 @@
+This is the approaches to run the Cypress test file (VoucherPurchase.cy.js) located in the GitHub repository (https://github.com/pexy4l/VoucherPurchaseFlow).:
+
+Local Setup (Clone and Run):
+
+a. Clone the Repository:
+
+Use Git to clone the repository containing the Cypress test file. You can find instructions on cloning a repository from GitHub on their documentation https://git-scm.com/.
+b. Install Dependencies:
+
+Navigate to the cloned repository directory in your terminal.
+Run npm install or yarn install (depending on the project's package manager) to install the dependencies required for Cypress to function.
+c. Run the Test:
+
+Once dependencies are installed, you can execute the test file using:
+npx cypress run VoucherPurchase.cy.js
